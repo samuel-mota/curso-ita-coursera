@@ -1,0 +1,16 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Relogio {
+
+	private long currentDate = System.currentTimeMillis();
+	
+	public Date agora() {
+		//if (currentTime != 0) {
+		Date date = new Date(currentTime);
+		
+			return date;
+		//}
+		//return 0;
+	}
+}

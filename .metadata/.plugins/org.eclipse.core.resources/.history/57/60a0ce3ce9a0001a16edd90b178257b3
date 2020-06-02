@@ -1,0 +1,16 @@
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+public class Relogio {
+
+	private long currentDate = System.currentTimeMillis();
+	
+	public Date agora() {
+		//if (currentTime != 0) {
+		Date date = new Date(currentDate));
+		
+			return date;
+		//}
+		//return 0;
+	}
+}

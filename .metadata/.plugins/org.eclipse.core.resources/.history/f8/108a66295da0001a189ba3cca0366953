@@ -1,0 +1,27 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import org.junit.jupiter.api.Test;
+
+class NiverTest {
+
+	@Test
+	void test() throws ParseException {
+		Date any = new Date();
+		Pessoa sam = new Pessoa(any);
+		
+		System.out.println(sam.getIdade());
+		
+		
+		String pattern = "dd-MM-yyyy";
+		SimpleDateFormat sdf = new SimpleDateFormat(pattern);
+
+		Date date = sdf.parse("01-02-2000");
+		
+		String date2 = sdf.format(new Date());
+		System.out.println(date);
+	}
+
+}

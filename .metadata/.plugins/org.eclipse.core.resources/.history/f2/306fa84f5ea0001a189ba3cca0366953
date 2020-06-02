@@ -1,0 +1,15 @@
+import java.text.SimpleDateFormat;
+
+public class Relogio {
+
+	private long currentTime = System.currentTimeMillis();
+	
+	public long agora() {
+		//if (currentTime != 0) {
+		String pattern = "dd-MMM-yyyy";
+		SimpleDateFormat sdf = new SimpleDateFormat(pattern);
+			return sdf.format(currentTime);
+		//}
+		//return 0;
+	}
+}

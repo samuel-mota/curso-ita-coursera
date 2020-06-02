@@ -1,0 +1,13 @@
+
+public class Relogio {
+
+	private long currentTime = System.currentTimeMillis();
+	
+	public long agora() {
+		//if (currentTime != 0) {
+		
+			return currentTime;
+		//}
+		//return 0;
+	}
+}
