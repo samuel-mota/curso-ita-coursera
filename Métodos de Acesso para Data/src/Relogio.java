@@ -1,16 +1,26 @@
-import java.util.Date;
+import java.text.ParseException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Relogio {
 
-	private long currentDate = System.currentTimeMillis();
-	private long fixedDate = 1346524199000L;
+	private LocalDate dataAtualOuFixa;
 	
-	public long agora() {
-		//if (currentTime != 0) {
-		Date date = new Date(fixedDate);
-		
-		return fixedDate;
-		//return currentDate;
+	public Relogio() {
+		//this.dataAtualOuFixa = new Date(System.currentTimeMillis());
+		this.dataAtualOuFixa = LocalDate.now();
+	}
 
+
+	public Relogio(String dataFixa) throws ParseException {
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/M/yyyy");
+		this.dataAtualOuFixa = LocalDate.parse(dataFixa, formatter);
+	}
+
+	
+	public LocalDate agora() {
+		
+		return dataAtualOuFixa;
+				
 	}
 }

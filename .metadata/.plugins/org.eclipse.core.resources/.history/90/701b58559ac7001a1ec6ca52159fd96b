@@ -1,0 +1,33 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Relogio {
+
+	private long dataFixa = 1346524199000L;
+	private Date dataDeNascimento;
+	
+	public Relogio() {
+		this.dataDeNascimento = new Date(System.currentTimeMillis());		
+	}
+
+
+	public Relogio(String ddn) {
+		this.dataDeNascimento = new Date(ddn);
+	}
+
+	
+	public Date agora(String ddn) throws ParseException {
+		if (ddn != null) {
+			
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			return this.dataDeNascimento = fixedDate;
+			
+		} 
+		
+		return new );
+		
+//Date date = new Date(fixedDate);
+		
+	}
+}

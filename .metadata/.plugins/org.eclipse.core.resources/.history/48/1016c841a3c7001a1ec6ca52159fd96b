@@ -1,0 +1,32 @@
+import java.text.ParseException;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class NiverTest {
+	
+	@Test
+	void test() throws ParseException {
+		
+		Pessoa sam = new Pessoa("20/12/1983");
+		
+		Assert.assertEquals("Sagit",sam.getSigno());
+//		System.out.println("getSigno: " + sam.getSigno());
+
+		Assert.assertEquals(35,sam.getIdade());
+		
+		System.out.println("getidade: " + sam.getIdade());
+		
+		//sam.getIdade();
+				
+//		System.out.println("Relogio.agora(): " + agora.agora());
+//		System.out.println("Relogio.agora(): " + dataFixa.agora());
+
+		
+		Pessoa test2 = new Pessoa("20/1/1983");
+		
+		System.out.println("Pessoa(): " + test2.getSigno());
+		System.out.println("getidade: " + test2.getIdade());
+	}
+
+}

@@ -1,0 +1,33 @@
+import java.text.SimpleDateFormat;
+import java.time.Period;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Pessoa {
+
+	Date dataDeNascimento;
+
+	public Pessoa() {
+		//Date dataFixa = new Relogio().agora();
+		this.dataDeNascimento = new Relogio().agora();
+	}
+
+	
+	public Pessoa(Date ddn) {
+		this.dataDeNascimento = ddn;
+	}
+	
+	public int getIdade() {
+
+		//SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		//Date age = sdf. .parse(dataDeNascimento);
+		return dataDeNascimento.getYear();
+	}
+	
+	public String getSigno() {
+		return null;
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Date;
+
+public class Relogio {
+
+	private Date dataAtualOuFixa;
+	
+	public Relogio() {
+		//this.dataAtualOuFixa = new Date(System.currentTimeMillis());
+		this.dataAtualOuFixa = LocalDate.now();
+	}
+
+
+	public Relogio(String dataFixa) throws ParseException {
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		this.dataAtualOuFixa = sdf.parse(dataFixa);
+	}
+
+	
+	public Date agora() {
+		
+		return dataAtualOuFixa;
+				
+	}
+}

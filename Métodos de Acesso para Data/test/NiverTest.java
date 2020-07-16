@@ -1,32 +1,31 @@
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 class NiverTest {
-
+	
 	@Test
-	void test() throws ParseException {
-		String pattern = "dd-MM-yyyy";
-		SimpleDateFormat sdf = new SimpleDateFormat(pattern);
+	void test1() throws ParseException {
+		Pessoa sam = new Pessoa("20/12/1983");
 		
-		long any = new Date().getTime();
-		Date date = new Date(any);
-		System.out.println("date: " + date);
-		Pessoa sam = new Pessoa(date);
+		Assert.assertEquals("Sagitário",sam.getSigno());
+		Assert.assertEquals(36,sam.getIdade());	
+	}
+	
+	@Test
+	void test2() throws ParseException {
+		Pessoa evy = new Pessoa("07/5/1992");
 		
-		System.out.println("getidade: " + sam.getIdade());
+		Assert.assertEquals("Touro",evy.getSigno());
+		Assert.assertEquals(28,evy.getIdade());
+	}
+	@Test
+	void test3() throws ParseException {
+		Pessoa ben = new Pessoa("29/6/2017");
 		
-		
-
-
-		//Date date = sdf.parse("1-Feb-2000");
-		
-		String date2 = sdf.format(sdf.parse("1-2-2000"));
-		
-		System.out.println("date2: "+date2);
+		Assert.assertEquals("Câncer", ben.getSigno());
+		Assert.assertEquals(3, ben.getIdade());
 	}
 
 }

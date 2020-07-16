@@ -1,0 +1,18 @@
+import java.text.ParseException;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class NiverTest {
+	
+	@Test
+	void test() throws ParseException {
+		
+		Pessoa sam = new Pessoa("20/12/1983");
+		
+		Assert.assertEquals("Sagitário",sam.getSigno());
+		Assert.assertEquals(36,sam.getIdade());
+		
+	}
+
+}

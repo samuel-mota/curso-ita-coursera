@@ -1,0 +1,36 @@
+import java.text.ParseException;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+
+class NiverTest {
+	
+	@Test
+	void test1() throws ParseException {
+		
+		Pessoa sam = new Pessoa("20/12/1983");
+		
+		Assert.assertEquals("Sagitário",sam.getSigno());
+		Assert.assertEquals(36,sam.getIdade());	
+	}
+	
+	@Test
+	void test2() throws ParseException {
+		
+		Pessoa EVY= new Pessoa("20/12/1983");
+		
+		Assert.assertEquals("Sagitário",sam.getSigno());
+		Assert.assertEquals(36,sam.getIdade());
+		
+	}
+	@Test
+	void test3() throws ParseException {
+		
+		Pessoa sam = new Pessoa("20/12/1983");
+		
+		Assert.assertEquals("Sagitário",sam.getSigno());
+		Assert.assertEquals(36,sam.getIdade());
+		
+	}
+
+}
