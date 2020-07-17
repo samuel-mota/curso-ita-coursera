@@ -14,7 +14,6 @@ public class Principal {
         barulhentos[9] = new Cachorro();
 
         sons(barulhentos);
-        
     }
 
     public static void sons(Barulhento[] barulhentos) {
