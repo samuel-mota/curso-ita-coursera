@@ -19,7 +19,7 @@ public class Principal {
 		quatroQueijos.adicionaIngrediente("mussarela");
 		quatroQueijos.adicionaIngrediente("gorgonzola");
 		quatroQueijos.adicionaIngrediente("catupiry");
-		quatroQueijos.adicionaIngrediente("parmes„o");
+		quatroQueijos.adicionaIngrediente("parmes√£o");
 		quatroQueijos.adicionaIngrediente("azeitona");
 		quatroQueijos.adicionaIngrediente("tomate");
 		

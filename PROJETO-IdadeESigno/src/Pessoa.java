@@ -45,29 +45,29 @@ public class Pessoa {
 				
 		
 		if (day >= 22 && month == 12 || day <= 20 && month == 1 ) {
-			signo = "Capricórnio";
+			signo = "CapricÃ³rnio";
 		} else if (day >= 21 && month == 1 || day <= 19 && month == 2 ) {
-			signo = "Aquário";
+			signo = "AquÃ¡rio";
 		} else if (day >= 20 && month == 2 || day <= 20 && month == 3 ) {
 			signo = "Peixes";			
 		} else if (day >= 21 && month == 3 || day <= 20 && month == 4 ) {
-			signo = "Áries";
+			signo = "Ãries";
 		} else if (day >= 21 && month == 4 || day <= 20 && month == 5 ) {
 			signo = "Touro";
 		} else if (day >= 21 && month == 5 || day <= 20 && month == 6 ) {
-			signo = "Gêmeos";
+			signo = "GÃªmeos";
 		} else if (day >= 21 && month == 6 || day <= 21 && month == 7 ) {
-			signo = "Câncer";
+			signo = "CÃ¢ncer";
 		} else if (day >= 22 && month == 7 || day <= 22 && month == 8 ) {
-			signo = "Leão";
+			signo = "LeÃ£o";
 		} else if (day >= 23 && month == 8 || day <= 22 && month == 9 ) {
 			signo = "Virgem";
 		} else if (day >= 23 && month == 9 || day <= 22 && month == 10 ) {
 			signo = "Libra";
 		} else if (day >= 23 && month == 10 || day <= 21 && month == 11 ) {
-			signo = "Escorpião";
+			signo = "EscorpiÃ£o";
 		} else if (day >= 22 && month == 11 || day <= 21 && month == 12 ) {
-			signo = "Sagitário";
+			signo = "SagitÃ¡rio";
 		}
 		
 		return signo;

@@ -7,20 +7,22 @@
       <module fileurl="file://$PROJECT_DIR$/CadeiaConstrutores/CadeiaConstrutores.iml" filepath="$PROJECT_DIR$/CadeiaConstrutores/CadeiaConstrutores.iml" />
       <module fileurl="file://$PROJECT_DIR$/Carros/Carros.iml" filepath="$PROJECT_DIR$/Carros/Carros.iml" />
       <module fileurl="file://$PROJECT_DIR$/Comercio/Comercio.iml" filepath="$PROJECT_DIR$/Comercio/Comercio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CompraParceladaComJurosMyOwn/CompraParceladaComJurosMyOwn.iml" filepath="$PROJECT_DIR$/CompraParceladaComJurosMyOwn/CompraParceladaComJurosMyOwn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Escola/Escola.iml" filepath="$PROJECT_DIR$/Escola/Escola.iml" />
       <module fileurl="file://$PROJECT_DIR$/EstaticaVsInstancia/EstaticaVsInstancia.iml" filepath="$PROJECT_DIR$/EstaticaVsInstancia/EstaticaVsInstancia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Excecoes/Excecoes.iml" filepath="$PROJECT_DIR$/Excecoes/Excecoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExcecoesLogin/ExcecoesLogin.iml" filepath="$PROJECT_DIR$/ExcecoesLogin/ExcecoesLogin.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExperienciaAcesso/ExperienciaAcesso.iml" filepath="$PROJECT_DIR$/ExperienciaAcesso/ExperienciaAcesso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FormasDeTratamento/FormasDeTratamento.iml" filepath="$PROJECT_DIR$/FormasDeTratamento/FormasDeTratamento.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IMC/IMC.iml" filepath="$PROJECT_DIR$/IMC/IMC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MetodosDeAcessoParaData/MetodosDeAcessoParaData.iml" filepath="$PROJECT_DIR$/MetodosDeAcessoParaData/MetodosDeAcessoParaData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-CompraParceladaComJuros/PROJETO-CompraParceladaComJuros.iml" filepath="$PROJECT_DIR$/PROJETO-CompraParceladaComJuros/PROJETO-CompraParceladaComJuros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-ExcecoesLerArquivo/PROJETO-ExcecoesLerArquivo.iml" filepath="$PROJECT_DIR$/PROJETO-ExcecoesLerArquivo/PROJETO-ExcecoesLerArquivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-FormasDeTratamento/PROJETO-FormasDeTratamento.iml" filepath="$PROJECT_DIR$/PROJETO-FormasDeTratamento/PROJETO-FormasDeTratamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-IMC/PROJETO-IMC.iml" filepath="$PROJECT_DIR$/PROJETO-IMC/PROJETO-IMC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-IdadeESigno/PROJETO-IdadeESigno.iml" filepath="$PROJECT_DIR$/PROJETO-IdadeESigno/PROJETO-IdadeESigno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-JogoDasPalavrasEmbaralhadas/PROJETO-JogoDasPalavrasEmbaralhadas.iml" filepath="$PROJECT_DIR$/PROJETO-JogoDasPalavrasEmbaralhadas/PROJETO-JogoDasPalavrasEmbaralhadas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-Pizza/PROJETO-Pizza.iml" filepath="$PROJECT_DIR$/PROJETO-Pizza/PROJETO-Pizza.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROJETO-Produtos/PROJETO-Produtos.iml" filepath="$PROJECT_DIR$/PROJETO-Produtos/PROJETO-Produtos.iml" />
       <module fileurl="file://$PROJECT_DIR$/PilhaEncapsulada/PilhaEncapsulada.iml" filepath="$PROJECT_DIR$/PilhaEncapsulada/PilhaEncapsulada.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Pizza/Pizza.iml" filepath="$PROJECT_DIR$/Pizza/Pizza.iml" />
       <module fileurl="file://$PROJECT_DIR$/PolimorfismoEInterfaces/PolimorfismoEInterfaces.iml" filepath="$PROJECT_DIR$/PolimorfismoEInterfaces/PolimorfismoEInterfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pontuacao/Pontuacao.iml" filepath="$PROJECT_DIR$/Pontuacao/Pontuacao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Produtos/Produtos.iml" filepath="$PROJECT_DIR$/Produtos/Produtos.iml" />
       <module fileurl="file://$PROJECT_DIR$/coursera-java.iml" filepath="$PROJECT_DIR$/coursera-java.iml" />
     </modules>
   </component>

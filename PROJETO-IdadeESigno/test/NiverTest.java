@@ -1,6 +1,5 @@
 import java.text.ParseException;
-
-import org.junit.Assert;
+import junit.framework.Assert;
 import org.junit.jupiter.api.Test;
 
 class NiverTest {
@@ -9,7 +8,7 @@ class NiverTest {
 	void test1() throws ParseException {
 		Pessoa sam = new Pessoa("20/12/1983");
 		
-		Assert.assertEquals("Sagit·rio",sam.getSigno());
+		Assert.assertEquals("Sagit√°rio",sam.getSigno());
 		Assert.assertEquals(36,sam.getIdade());	
 	}
 	
@@ -24,7 +23,7 @@ class NiverTest {
 	void test3() throws ParseException {
 		Pessoa ben = new Pessoa("29/6/2017");
 		
-		Assert.assertEquals("C‚ncer", ben.getSigno());
+		Assert.assertEquals("C√¢ncer", ben.getSigno());
 		Assert.assertEquals(3, ben.getIdade());
 	}
 
